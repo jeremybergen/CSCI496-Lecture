@@ -4,8 +4,11 @@ import numpy as np
 
 def main() -> None:
     img = cv2.imread('PXL_20211006_195833767_small.jpg')
-    # translation_matrix = np.array([[.5*1, 0, 50],
-    #                                [0, .5*1, 150]]).astype(np.float64)
+    # translation_matrix = np.array([[1.5*1, 0, 50],
+    #                                [0, 1.5*1, 150]]).astype(np.float64)
+    # translation_matrix = np.array([[0, 1, 377],
+    #                                [-1, 0, 0]]).astype(np.float64)
+
     translation_matrix = np.array([[.5*np.cos(45*np.pi/180), .5*-np.sin(45*np.pi/180), 0],
                                    [.5*np.sin(45*np.pi/180), .5*np.cos(45*np.pi/180), 0]]).astype(np.float64)
     translation_matrix[:2, 2] = np.array(img.shape[:2][::-1])//2 - np.matmul(translation_matrix[:2, :2], np.array(img.shape[:2][::-1])//2)
