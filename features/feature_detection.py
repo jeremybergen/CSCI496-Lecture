@@ -10,8 +10,11 @@ def detect_and_compute(image):
 
 
 def main() -> None:
-    image1 = cv2.imread("../images/office/board.jpg")
-    image2 = cv2.imread("../images/office/board_scene.jpg")
+    # image1 = cv2.imread("../images/office/board.jpg")
+    # image2 = cv2.imread("../images/office/board_scene.jpg")
+
+    image1 = cv2.imread("../images/confluence/img3.jpg")
+    image2 = cv2.imread("../images/confluence/img4.jpg")
     gray_img1 = cv2.cvtColor(image1, cv2.COLOR_BGR2GRAY)
     gray_img2 = cv2.cvtColor(image2, cv2.COLOR_BGR2GRAY)
 
@@ -30,7 +33,7 @@ def main() -> None:
 
     good_matches = []
     for m, n in matches:
-        if m.distance < 0.65 * n.distance:
+        if m.distance < 0.7 * n.distance:
             good_matches.append(m)
 
     result_image = cv2.drawMatches(image1, kp1, image2, kp2, good_matches, None, flags=2)
