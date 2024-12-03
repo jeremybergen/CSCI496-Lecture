@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f00435da-8b82-48b4-8f1d-c1b51ec0e083" name="Changes" comment="Thursday 1010">
+      <change beforePath="$PROJECT_DIR$/hw2/hw2.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw2/hw2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning/ml_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning/ml_tests.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jeremybergen&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:jeremybergen/CSCI496-Lecture.git&quot;,
+    &quot;accountId&quot;: &quot;478f2375-3e4e-42ec-8fa8-38927564c683&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2lL1wLiOwf5U2G5wmOotwOVicl3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.corners.executor": "Run",
+    "Python.edge_filters.executor": "Run",
+    "Python.eigenfaces.executor": "Run",
+    "Python.feature_detection.executor": "Run",
+    "Python.hsv_color.executor": "Run",
+    "Python.image_stitching.executor": "Run",
+    "Python.kalman.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.ml_tests.executor": "Run",
+    "Python.motion.executor": "Run",
+    "Python.pca.executor": "Run",
+    "Python.unsharp_mask.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/presentation/PycharmProjects/CSCI496_Computer_Vision",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\presentation\PycharmProjects\CSCI496-Lecture\filtering" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\presentation\PycharmProjects\CSCI496-Lecture\Opening Images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f00435da-8b82-48b4-8f1d-c1b51ec0e083" name="Changes" comment="" />
+      <created>1724944780113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724944780113</updated>
+      <workItem from="1724944781221" duration="6196000" />
+      <workItem from="1725377408626" duration="5223000" />
+      <workItem from="1725549899660" duration="5775000" />
+      <workItem from="1725981850709" duration="2470000" />
+      <workItem from="1726156131331" duration="3987000" />
+      <workItem from="1728577103660" duration="1509000" />
+      <workItem from="1729006216698" duration="2910000" />
+      <workItem from="1729178917560" duration="3659000" />
+      <workItem from="1729786959006" duration="1195000" />
+      <workItem from="1730215835189" duration="2039000" />
+      <workItem from="1730388541564" duration="2849000" />
+      <workItem from="1730826813154" duration="2144000" />
+      <workItem from="1730997305614" duration="526000" />
+      <workItem from="1731429003692" duration="684000" />
+      <workItem from="1732036592592" duration="1970000" />
+      <workItem from="1732206534388" duration="5248000" />
+      <workItem from="1733244903883" duration="2479000" />
+    </task>
+    <task id="LOCAL-00001" summary="Thursday 0829">
+      <option name="closed" value="true" />
+      <created>1724949954533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724949954533</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Thursday 1010">
+      <option name="closed" value="true" />
+      <created>1728590398215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728590398215</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Thursday 0829" />
+    <MESSAGE value="Thursday 1010" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thursday 1010" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CSCI496_Lecture$feature_detection.coverage" NAME="feature_detection Coverage Results" MODIFIED="1729180128408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
+    <SUITE FILE_PATH="coverage/CSCI496_Lecture$motion.coverage" NAME="motion Coverage Results" MODIFIED="1730391099786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/optical_flow" />
+    <SUITE FILE_PATH="coverage/CSCI496_Lecture$image_stitching.coverage" NAME="image_stitching Coverage Results" MODIFIED="1729181974368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
+    <SUITE FILE_PATH="coverage/CSCI496_Lecture$pca.coverage" NAME="pca Coverage Results" MODIFIED="1733245952643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning" />
+    <SUITE FILE_PATH="coverage/CSCI496_Lecture$eigenfaces.coverage" NAME="eigenfaces Coverage Results" MODIFIED="1733246785973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning" />
+    <SUITE FILE_PATH="coverage/CSCI496_Lecture$main.coverage" NAME="main Coverage Results" MODIFIED="1726159164942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lines_and_circles" />
+    <SUITE FILE_PATH="coverage/CSCI496_Lecture$edge_filters.coverage" NAME="edge_filters Coverage Results" MODIFIED="1725984729793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filtering" />
+    <SUITE FILE_PATH="coverage/CSCI496_Lecture$ml_tests.coverage" NAME="ml_tests Coverage Results" MODIFIED="1732210160601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning" />
+    <SUITE FILE_PATH="coverage/CSCI496_Lecture$corners.coverage" NAME="corners Coverage Results" MODIFIED="1728578133155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lines_and_circles" />
+    <SUITE FILE_PATH="coverage/CSCI496_Lecture$unsharp_mask.coverage" NAME="unsharp_mask Coverage Results" MODIFIED="1725552536412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filtering" />
+    <SUITE FILE_PATH="coverage/CSCI496_Lecture$kalman.coverage" NAME="kalman Coverage Results" MODIFIED="1730828206514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/optical_flow" />
+    <SUITE FILE_PATH="coverage/CSCI496_Lecture$hsv_color.coverage" NAME="hsv_color Coverage Results" MODIFIED="1724949137593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filtering" />
+  </component>
+</project>
