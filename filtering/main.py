@@ -3,8 +3,9 @@ import numpy as np
 
 
 def main() -> None:
-    img = cv2.imread("../images/tyu.jpg", cv2.IMREAD_GRAYSCALE)
+    # img = cv2.imread("../images/tyu.jpg", cv2.IMREAD_GRAYSCALE)
     # img = cv2.imread("../images/PXL_20220814_151818246_small.jpg", cv2.IMREAD_GRAYSCALE)
+    img = cv2.imread("../images/PXL_20211006_195833767_small.jpg", cv2.IMREAD_GRAYSCALE)
     img2 = img.copy()
 
     # imgFilter = np.ones((101, 101)).astype(np.float64)
@@ -77,25 +78,34 @@ def main() -> None:
     # cv2.imshow("sharpImg", sharpImg)
     # cv2.imshow("sharpImg2", sharpImg2)
 
-    kernel = np.array([[-1, 0, 1],
-                       [-2, 0, 2],
-                       [-1, 0, 1]])
+    kernel = np.array([[-10, 0, 10],
+                       [-50, 0, 50],
+                       [-10, 0, 10]])
+    kernel = 1/8 * kernel
+
+    kernely = np.array([[3, 10, 3],
+                        [0, 0, 0],
+                        [-3, -10, -3]])
+    kernely = 1/8 * kernely
     # np.array([[-1, -1, -1],
     #           [0, 0, 0],
     #           [1, 1, 1]])
-    img = cv2.GaussianBlur(img, (5, 5), 2.5)
+    # img = cv2.GaussianBlur(img, (5, 5), 2.5)
     sobelx = cv2.filter2D(img, -1, kernel)
-    kernel = kernel.T
-    sobely = cv2.filter2D(img, -1, kernel)
+    sobely = cv2.filter2D(img, -1, kernely)
+    # kernel = kernel.T
+    # sobely = cv2.filter2D(img, -1, kernel)
 
-    combImg = sobelx.astype(np.float64) + sobely.astype(np.float64)
+    # combImg = sobelx.astype(np.float64) + sobely.astype(np.float64)
 
-    cv2.normalize(combImg, combImg, 0, 255, cv2.NORM_MINMAX)
-    combImg = combImg.astype(np.uint8)
-    ret, combImg = cv2.threshold(combImg, 90, 255, cv2.THRESH_BINARY)
+    # cv2.normalize(combImg, combImg, 0, 255, cv2.NORM_MINMAX)
+    # combImg = combImg.astype(np.uint8)
+    # ret, combImg = cv2.threshold(combImg, 90, 255, cv2.THRESH_BINARY)
+    # sobelx = cv2.Sobel(img, -1, 1, 1, ksize=3)
+    # sobelx = cv2.Scharr(img, -1, .5, .5)
     cv2.imshow("sobelx", sobelx)
-    cv2.imshow("sobely", sobely)
-    cv2.imshow("combImg", combImg)
+    # cv2.imshow("sobely", sobely)
+    # cv2.imshow("combImg", combImg)
     cv2.imshow("img", img)
     # cv2.imshow("img2", img2)
     cv2.waitKey(0)
